@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'svn-rockerregular';
+    src: url('../../fonts/safe/svn-webfont.woff2') format('woff2'),
+         url('../../fonts/safe/svn-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Georgia';
+    src: url('../../fonts/safe/georgia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'Georgia-Bold';
+  src: url('../../fonts/safe/Georgia-Bold.eot?#iefix') format('embedded-opentype'),  url('../../fonts/safe/Georgia-Bold.woff') format('woff'), url('../../fonts/safe/Georgia-Bold.ttf')  format('truetype'), url('../../fonts/safe/Georgia-Bold.svg#Georgia-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+	margin:0 auto;
+	padding: 0;
+	background: #000 url(../../img/safe/bg.jpg) no-repeat center center;
+	background-attachment: fixed;
+}
+.main{
+	max-width: 750px;
+	display: block;
+	margin: 0 auto;
+}
+h1.title{
+	margin: 20px 0px;
+	text-align: center !important;
+	font-family: 'svn-rockerregular';
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 1;
+	cursor: pointer;
+	background: linear-gradient(-90deg, #FF6000, #eff800 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+	font-family: 'Open Sans', san-serif;
+	font-size: 25px;
+	line-height: 1.2;
+	text-align: center;
+	display: block;
+	color: #ebb71a;
+	text-shadow: 1px 1px #000;
+}
+img.prod{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 300px;
+	margin-top: -10px;
+}
+.ord_button {
+	cursor: pointer;
+	max-width: 300px;
+	width: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    background: linear-gradient(to bottom, #F7A800, #FF6000);
+    color: #ffffff !important;
+    display: block;
+    padding: 8px 15px;
+    font-size: 20px;
+    box-shadow: 2px 3px 5px #999999;
+    text-decoration: none;
+    border-radius: 30px;
+	border: 2px solid #fff;
+    margin-bottom: 20px;
+    line-height: 30px;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+.ord_button:hover {
+    background-color: #AA4000;
+    box-shadow: 1px 2px 3px #999999;
+    text-decoration: none;
+	-webkit-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	-o-transform: scale(1.03);
+	transform: scale(1.03);
+}
+#stars {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#stars .inner {
+  position: absolute;
+  width: 100%;
+  height: 5000%;
+  -webkit-animation: animStar 10000s infinite linear forwards;
+  animation: animStar 10000s infinite linear forwards;
+  background: url("../../img/safe/starz.png") 50% 0 repeat;
+  background-size: 1623px 559px;
+}
+
+@-webkit-keyframes animStar {
+  from {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  to {
+    -webkit-transform: translateY(-500%);
+    transform: translateY(-500%);
+  }
+}
+
+@keyframes animStar {
+  from {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  to {
+    -webkit-transform: translateY(-500%);
+    transform: translateY(-500%);
+  }
+}
