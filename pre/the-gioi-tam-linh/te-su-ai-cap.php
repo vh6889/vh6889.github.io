@@ -13,7 +13,7 @@
 		<meta content="initial-scale=1, maximum-scale=1, width=device-width" name="viewport">
 	</head>
 	<body>
-		<img src="https://www.facebook.com/tr?id=1280338385656780&ev=ViewContent" height="1" width="1" style="display:none"/>
+		<img src="https://www.facebook.com/tr?id=&ev=ViewContent" height="1" width="1" style="display:none"/>
 		<section class="top_se">
 			<div class="inner_top_se">
 				<div class="blose"> Thế giới tâm linh
