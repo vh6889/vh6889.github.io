@@ -1,0 +1,13 @@
+name: Khang | phone: 0799044868 | ads_name:Horus Amulet VN | tracking_id: 
+name: Nông đức bảy | phone: 0336164928 | ads_name:Horus Amulet VN | tracking_id: 
+name: Nguyen trung kien | phone: 0936739910 | ads_name:Horus Amulet VN | tracking_id: 
+name: Nguyễn Thị Hồng | phone: 0385756128 | ads_name:Horus Amulet VN | tracking_id: 
+name: Hoàng thị hoa | phone: 0982370578 | ads_name:Horus Amulet VN | tracking_id: 
+name: Nguyễn Văn ngon | phone: 0353268124 | ads_name:Horus Amulet VN | tracking_id: 
+name: Hà Văn Kế  | phone: 0906513861 | ads_name:Horus Amulet VN | tracking_id: 
+name: Lê Thị Kim Tuyết chào đón  | phone: 0904731491 | ads_name:Horus Amulet VN | tracking_id: 
+name: Nguyễn dung  | phone: 0325648276 | ads_name:Horus Amulet VN | tracking_id: 
+name: Nguyễn Văn Hải  | phone: 0904443656 | ads_name:Horus Amulet VN | tracking_id: 
+name: Lê Thị oanh | phone: 0707248471 | ads_name:Horus Amulet VN | tracking_id: 
+name: DINH THI MY KIEU  | phone: 08,89923743 | ads_name:Horus Amulet VN | tracking_id: 
+name: Nguyen thi be khuong  | phone: 0384354442 | ads_name:Horus Amulet VN | tracking_id: 
