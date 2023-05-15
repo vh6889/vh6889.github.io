@@ -3,46 +3,46 @@
   font-family: "Lora";
   font-weight: 400;
   font-style: normal;
-  src: url(../fonts/LoraRegular/LoraRegular.eot);
-  src: url(../fonts/LoraRegular/LoraRegular.eot%40.html)
+  src: url(landing/fonts/LoraRegular/LoraRegular.eot);
+  src: url(landing/fonts/LoraRegular/LoraRegular.eot%40.html)
       format("embedded-opentype"),
-    url(../fonts/LoraRegular/LoraRegular.woff) format("woff"),
-    url(../fonts/LoraRegular/LoraRegular.ttf.html) format("truetype");
+    url(landing/fonts/LoraRegular/LoraRegular.woff) format("woff"),
+    url(landing/fonts/LoraRegular/LoraRegular.ttf.html) format("truetype");
 }
 @font-face {
   font-family: "Lato";
   font-weight: 400;
   font-style: normal;
-  src: url(../fonts/LatoRegular/LatoRegular.eot);
-  src: url(../fonts/LatoRegular/LatoRegular.eot%40.html)
+  src: url(landing/fonts/LatoRegular/LatoRegular.eot);
+  src: url(landing/fonts/LatoRegular/LatoRegular.eot%40.html)
       format("embedded-opentype"),
-    url(../fonts/LatoRegular/LatoRegular.woff) format("woff"),
-    url(../fonts/LatoRegular/LatoRegular.ttf.html) format("truetype");
+    url(landing/fonts/LatoRegular/LatoRegular.woff) format("woff"),
+    url(landing/fonts/LatoRegular/LatoRegular.ttf.html) format("truetype");
 }
 @font-face {
   font-family: "PlayfairDisplay";
   font-weight: 400;
   font-style: normal;
-  src: url(../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot);
-  src: url(../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot%40.html)
+  src: url(landing/fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot);
+  src: url(landing/fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot%40.html)
       format("embedded-opentype"),
-    url(../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.woff)
+    url(landing/fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.woff)
       format("woff"),
-    url(../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.ttf.html)
+    url(landing/fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.ttf.html)
       format("truetype");
 }
 @font-face {
   font-family: "PlayfairDisplay";
   font-weight: 700;
   font-style: normal;
-  src: url(../fonts/PlayfairDisplayBold/PlayfairDisplayBold.eot);
-  src: url(../fonts/PlayfairDisplayBold/PlayfairDisplayBold.eot%40.html)
+  src: url(landing/fonts/PlayfairDisplayBold/PlayfairDisplayBold.eot);
+  src: url(landing/fonts/PlayfairDisplayBold/PlayfairDisplayBold.eot%40.html)
       format("embedded-opentype"),
-    url(../fonts/PlayfairDisplayBold/PlayfairDisplayBold.woff) format("woff"),
-    url(../fonts/PlayfairDisplayBold/PlayfairDisplayBold.ttf.html)
+    url(landing/fonts/PlayfairDisplayBold/PlayfairDisplayBold.woff) format("woff"),
+    url(landing/fonts/PlayfairDisplayBold/PlayfairDisplayBold.ttf.html)
       format("truetype");
 }
-body.step2.compensate-for-scrollbar {
+body.compensate-for-scrollbar {
   overflow: hidden;
 }
 .fancybox-active {
@@ -1126,13 +1126,13 @@ img {
   background-color: #febe39;
   color: #fff;
 }
-body.step2 {
+body {
   font-size: 1em;
   min-width: 320px;
   position: relative;
   line-height: 1.5;
   font-family: "Lora", sans-serif;
-  background: #020003 url(../img/body-bg.png) no-repeat center bottom/100% auto;
+  background: #020003 url(landing/img/body-bg.png) no-repeat center bottom/100% auto;
   color: #fff;
   overflow-x: hidden;
   margin: 0;
@@ -1249,7 +1249,7 @@ select::-ms-expand {
   background: linear-gradient(#febe39, #803f0e);
 }
 .submit.sending::before {
-  background: #febe39 url(../img/icon/waiting-for-sending.svg) no-repeat
+  background: #febe39 url(landing/img/icon/waiting-for-sending.svg) no-repeat
     center/142px auto;
 }
 .submit.success::before {
@@ -1475,7 +1475,7 @@ select::-ms-expand {
   top: -8px;
   left: 0;
   right: 0;
-  background: transparent url(../img/icon/separator.svg) no-repeat center/auto
+  background: transparent url(landing/img/icon/separator.svg) no-repeat center/auto
     16px;
 }
 .logo {
@@ -1500,7 +1500,7 @@ select::-ms-expand {
   font-size: 16px;
   display: inline-block;
   padding-left: 24px;
-  background: transparent url(../img/icon/phone-call.svg) no-repeat center
+  background: transparent url(landing/img/icon/phone-call.svg) no-repeat center
     left/16px auto;
 }
 .phone:hover {
@@ -1701,7 +1701,7 @@ select::-ms-expand {
   left: 0;
   right: 0;
   bottom: 0;
-  background: transparent url(../img/video.jpg) no-repeat center/cover;
+  background: transparent url(landing/img/video.jpg) no-repeat center/cover;
   opacity: 0.5;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -1833,7 +1833,7 @@ select::-ms-expand {
 }
 .reviews-list .item-wrap {
   max-width: 337px;
-  background: transparent url(../img/iphone.png) no-repeat top center/contain;
+  background: transparent url(landing/img/iphone.png) no-repeat top center/contain;
   position: relative;
   margin: 0 auto;
 }
@@ -2127,7 +2127,7 @@ select::-ms-expand {
     left: 15px;
     right: 15px;
     bottom: -3px;
-    background: transparent url(../img/icon/separator.svg) no-repeat center/auto
+    background: transparent url(landing/img/icon/separator.svg) no-repeat center/auto
       6px;
   }
   .menu-btn {
